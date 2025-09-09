@@ -1,0 +1,30 @@
+#include<stdio.h>
+
+typedef struct{
+    float nota;
+
+
+}Aluno;
+
+
+int main(){
+int i;
+int j=10;
+
+
+Aluno aluno[j];
+
+for(i=0; i<j ;i++){
+printf("digite sua nota:\n ");
+scanf("%f" ,&aluno[i].nota);
+
+}
+printf(" a media geral da turma e = %2.f",(aluno[0].nota + aluno[1].nota + aluno[2].nota + aluno[3].nota +aluno[4].nota+ aluno[5].nota +aluno[6].nota +aluno[7].nota + aluno[8].nota +aluno[9].nota)/10);
+
+
+
+
+
+
+return 0;
+}
